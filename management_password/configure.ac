@@ -3,9 +3,9 @@
 
 AC_PREREQ([2.68])
 AC_INIT([management_password], [0.0.1], [masakazu.minamiyama@gmail.com])
+AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([management_password.cpp])
 AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE
 
 # Checks for programs.
 AC_PROG_CXX
